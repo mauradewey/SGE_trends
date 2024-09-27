@@ -5,6 +5,5 @@ C. Abraham, M. Dewey, and C. Goldblatt (in prep). Trends in the occurrence and s
 
 ## Data
 
-Pre-processed data can be downloaded from the associated zenodo repository: 
-For references to the original satellite data sources please see the paper.
+Original satellite data is available freely for download as well: AIRS data is available from The Goddard Earth Sciences Data and Information Services Center (GES-DISC) at NASA (https://disc.gsfc.nasa.gov), and CERES data is available from the Langley Research Center (LARC) at NASA (https://ceres.larc.nasa.gov/).
 
