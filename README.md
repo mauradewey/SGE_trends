@@ -11,5 +11,5 @@ Satellite data is available freely for download: AIRS data is available from The
 
 edata_cred.py will setup credentials to download data from the NASA servers.  
 sge_data_prep.ipynb will process the raw satellite data (once already downloaded)  
-sge_paper_finalplots.ipynb will create all figures in the paper  
-Note that the pre-processed data and some CERES files required to make the figures are hosted on zenodo, but are too large to be included on github.
+sge_paper_finalplots.ipynb will create all figures in the paper (the files required are already included in the repository)  
+Note that the processed data (SGE_timeseries_2002_2023_v7.nc) and some CERES files required to make the figures are hosted on zenodo, but are too large to be included on github.
