@@ -23,9 +23,9 @@ def SGE_threshold(T,OLR,TPWV):
     #SGE_strength: difference between expected and measured OLR [W/m^2]
     sigma=5.670374419E-8
     H2O_threshold=40
-    OLR_expected=sigma*(T**4)-grey_atmos(T,0.84454868,0.00804156)
+    OLR_threshold=sigma*(T**4)-grey_atmos(T,0.84454868,0.00804156)
     OLR_best_fit=sigma*(T**4)-grey_atmos(T,0.67507104,0.00866809)
-    SGE_occ=xr.where(np.logical_and((OLR-OLR_expected)<0, TPWV>H2O_threshold), np.ones_like(OLR), 0)
+    SGE_occ=xr.where(np.logical_and((OLR-OLR_threshold)<0, TPWV>H2O_threshold), np.ones_like(OLR), 0)
     SGE_strength=(OLR_best_fit-OLR)*SGE_occ
     return SGE_occ, SGE_strength
 
