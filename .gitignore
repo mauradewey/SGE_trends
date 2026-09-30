@@ -3,3 +3,4 @@ CERES_EBAF_Ed4.2_Subset_200301-202212.nc
 *.nc
 *trends3.txt
 *seas*
+__pycache__/
